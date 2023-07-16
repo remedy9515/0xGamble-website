@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 676.94 182.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bcc1c7;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <polygon class="cls-2" points="676.94 0 676.94 182.8 193.28 182.8 44.82 0 676.94 0"/>
+      <polygon class="cls-1" points="193.28 182.8 0 182.8 0 0 44.82 0 193.28 182.8"/>
+    </g>
+  </g>
+</svg>
