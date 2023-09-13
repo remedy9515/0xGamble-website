@@ -50,6 +50,10 @@
 				'title' => 'How to buy 1UCK?',
 				'text' => 'To buy 1UCK, follow these steps:<br>• Ensure you have a compatible crypto wallet that supports Binance Smart Chain (BSC) tokens. Popular options include MetaMask, Trust Wallet, and Binance Chain Wallet.<br>• Get BNB (Binance Coin) from a trusted exchange and transfer it to your BSC-compatible wallet. This will be used to swap for 1UCK.<br>• Go to <a href="https://pancakeswap.finance/swap?outputCurrency=0x30016A1764C93EEdCCbEE5E1b3835F191c6f4050" target="_blank" class="inline-link">PancakeSwap</a>.<br>• Adjust the slippage tolerance (~1,5%) and enter the amount of BNB you want to swap for 1UCK. Confirm the transaction and approve the token swap.<br>Once the transaction is confirmed, you should see the 1UCK tokens in your wallet&#x27;s token balance. You can now hold, trade, or participate in the 0xGamble ecosystem using your acquired 1UCK.',
 			],
+			[
+				'title' => 'Can I get involved?',
+				'text' => "We opened a Community Contribution Wallet - 0xCB39F42735334328c824603c362f144e1D5abc99 -that will serve as a vital lifeline for the project's advancement.<br><br>This wallet will be the key to unlocking opportunities that lie ahead, including marketing campaigns, incentives for new developers joining, and even securing those coveted CEX listings.<br><br>Your contributions will have a direct impact on expanding our reach, attracting new frens, and creating even more stimulating experiences within the 0xgamble - 1UCK ecosystem."
+			]
 		],
 	])
 

@@ -6,7 +6,7 @@
 				<div class="uui-text-align-center-2">
 					<div class="uui-max-width-xlarge-2">
 						
-						{{-- @include('components.top-header-news') --}}
+						@include('components.top-header-news')
 						
 						<div class="uui-space-small-2"></div>
 
