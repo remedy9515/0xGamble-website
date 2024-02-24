@@ -337,10 +337,13 @@ function processTransactionResults(data) {
 
 	switch (result.event) {
 		case 'PotTransferredToHouse':
+			handlePotTransferredToHouse(result);
+			break;
 		case 'PotTransferredToSender':
+			handlePotTransferredToSender(result);
+			break;
 		case 'PotBurned':
-			// call the handler function
-			eval('handle'+result.event)(result);
+			handlePotBurned(result)
 			break;
 		default:
 			handleNoResult();
@@ -350,23 +353,23 @@ function processTransactionResults(data) {
 
 // handle results
 function handlePotTransferredToHouse(result) {
-	let message = 'HOUSE WON! BUMMER...';
+	let message = 'HOUSE WON!';
 	let details = toSeparator(toTwoDecimals(Number(result.value)))+' 1UCK was sent to the house wallet';
-	
+
 	endGameWithResults(message, details);
 	$(rangeSubmitId+' .indicator').html('PLAY AGAIN?');
 }
 function handlePotTransferredToSender(result) {
-	let message = 'YOU WON! CONGRATULATION!';
+	let message = 'YOU WON!';
 	let details = toSeparator(toTwoDecimals(Number(result.value)))+' 1UCK was sent to YOUR wallet';
-	
+
 	endGameWithResults(message, details);
 	$(rangeSubmitId+' .indicator').html('PLAY AGAIN?');
 }
 function handlePotBurned(result) {
-	let message = 'POT BURNED! WE ALL WIN!';
+	let message = 'POT BURNED!';
 	let details = toSeparator(toTwoDecimals(Number(result.value)))+' 1UCK was burned';
-	
+
 	endGameWithResults(message, details);
 	$(rangeSubmitId+' .indicator').html('PLAY AGAIN?');
 }
